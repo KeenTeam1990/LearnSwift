@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		360D61C71F8B129F00E74708 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360D61C61F8B129F00E74708 /* MapKit.framework */; };
 		360D61CA1F8B4F7B00E74708 /* TwoAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360D61C91F8B4F7B00E74708 /* TwoAreaViewController.swift */; };
+		360D61CE1F8B6D8C00E74708 /* UI+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360D61CD1F8B6D8C00E74708 /* UI+Extension.swift */; };
 		36848DD11F70C48700699ABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36848DD01F70C48700699ABA /* AppDelegate.swift */; };
 		36848DD31F70C48700699ABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36848DD21F70C48700699ABA /* ViewController.swift */; };
 		36848DD61F70C48700699ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36848DD41F70C48700699ABA /* Main.storyboard */; };
@@ -55,6 +56,7 @@
 		360D61C61F8B129F00E74708 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		360D61C81F8B12B400E74708 /* LearnSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LearnSwift.entitlements; sourceTree = "<group>"; };
 		360D61C91F8B4F7B00E74708 /* TwoAreaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoAreaViewController.swift; sourceTree = "<group>"; };
+		360D61CD1F8B6D8C00E74708 /* UI+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UI+Extension.swift"; sourceTree = "<group>"; };
 		36848DCD1F70C48700699ABA /* LearnSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36848DD01F70C48700699ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36848DD21F70C48700699ABA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				36DA201F1F716BD300FA4F5B /* LearnSwiftConst.swift */,
 				36848DDC1F70C48700699ABA /* Info.plist */,
 				36FDF2781F720E5E000D58BA /* LearnSwift-Bridging-Header.h */,
+				360D61CD1F8B6D8C00E74708 /* UI+Extension.swift */,
 			);
 			path = LearnSwift;
 			sourceTree = "<group>";
@@ -420,6 +423,7 @@
 				36DA20201F716BD300FA4F5B /* LearnSwiftConst.swift in Sources */,
 				36848E0C1F70C4E100699ABA /* ThreeViewController.swift in Sources */,
 				36848E0B1F70C4E100699ABA /* ThreeNextViewController.swift in Sources */,
+				360D61CE1F8B6D8C00E74708 /* UI+Extension.swift in Sources */,
 				36848E0F1F70C4E100699ABA /* TwoViewController.swift in Sources */,
 				36848DD31F70C48700699ABA /* ViewController.swift in Sources */,
 				36848DD11F70C48700699ABA /* AppDelegate.swift in Sources */,

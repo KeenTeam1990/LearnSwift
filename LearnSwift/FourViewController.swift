@@ -14,9 +14,23 @@ class FourViewController: UIViewController {
         super.viewDidLoad()
         self.title = "four"
         self.view.backgroundColor = UIColor.cyan
+        setLKBtn()
         
     }
 
+    func setLKBtn() {
+        
+        let btn : LKButton = LKButton()
+        btn.setTitle("图片在上", for: .normal)
+        btn.setImage(UIImage.init(named: "appicon"), for: .normal)
+        btn.frame = CGRect(x: 130, y: 200, width: 100, height: 100)
+        view.addSubview(btn)
+        
+        
+    }
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
