@@ -20,7 +20,7 @@ class OneViewController: UIViewController ,UITableViewDelegate,UITableViewDataSo
         setDataArr()
         setTableView()
         self.view.backgroundColor = UIColor.gray
-        // Do any additional setup after loading the view.
+        
     }
    
     func setNavItem(){

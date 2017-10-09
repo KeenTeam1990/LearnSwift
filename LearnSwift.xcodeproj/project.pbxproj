@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		360D61C71F8B129F00E74708 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360D61C61F8B129F00E74708 /* MapKit.framework */; };
+		360D61CA1F8B4F7B00E74708 /* TwoAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360D61C91F8B4F7B00E74708 /* TwoAreaViewController.swift */; };
 		36848DD11F70C48700699ABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36848DD01F70C48700699ABA /* AppDelegate.swift */; };
 		36848DD31F70C48700699ABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36848DD21F70C48700699ABA /* ViewController.swift */; };
 		36848DD61F70C48700699ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36848DD41F70C48700699ABA /* Main.storyboard */; };
@@ -53,6 +54,7 @@
 		0FE5F492881F1AFA8A8F42FB /* Pods-LearnSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnSwift/Pods-LearnSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		360D61C61F8B129F00E74708 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		360D61C81F8B12B400E74708 /* LearnSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LearnSwift.entitlements; sourceTree = "<group>"; };
+		360D61C91F8B4F7B00E74708 /* TwoAreaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoAreaViewController.swift; sourceTree = "<group>"; };
 		36848DCD1F70C48700699ABA /* LearnSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36848DD01F70C48700699ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36848DD21F70C48700699ABA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				36848E061F70C4E100699ABA /* TwoViewController.swift */,
 				36848E041F70C4E100699ABA /* TwoTableViewCell.swift */,
 				36848E051F70C4E100699ABA /* TwoTableViewCell.xib */,
+				360D61C91F8B4F7B00E74708 /* TwoAreaViewController.swift */,
 				36848E021F70C4E100699ABA /* ThreeNextViewController.swift */,
 				36848E031F70C4E100699ABA /* ThreeViewController.swift */,
 				36848DFE1F70C4E100699ABA /* FourViewController.swift */,
@@ -427,6 +430,7 @@
 				36FDF2891F720EC4000D58BA /* SVProgressHUD.m in Sources */,
 				36FDF2861F720EC4000D58BA /* SVIndefiniteAnimatedView.m in Sources */,
 				36848E091F70C4E100699ABA /* OneViewController.swift in Sources */,
+				360D61CA1F8B4F7B00E74708 /* TwoAreaViewController.swift in Sources */,
 				36FDF2871F720EC4000D58BA /* SVProgressAnimatedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
