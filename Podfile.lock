@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.3.0)
+  - HandyJSON (1.7.2)
   - Kingfisher (3.3.4)
   - SnapKit (3.1.2)
   - SVProgressHUD (2.2.1)
@@ -7,6 +8,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.3.0)
+  - HandyJSON (~> 1.7.1)
   - Kingfisher (~> 3.3.4)
   - SnapKit (~> 3.1.2)
   - SVProgressHUD
@@ -14,11 +16,12 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  HandyJSON: e7ad0483005826baba1d1c251cd98d0aa8bd8cce
   Kingfisher: 35f289f015d26e81ea6c85048718c6205f3933c6
   SnapKit: 12b24f569cb7c143acc9c22b9d91b23e7b1c84a2
   SVProgressHUD: db27c54e6e18bc903341661fc9feb55e04905cc4
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 992696e3bca6109fcc339d08f3df18827b58c497
+PODFILE CHECKSUM: 49aad7b61c26f2ecf85966c06dc2586a6c859323
 
 COCOAPODS: 1.2.1

@@ -15,7 +15,7 @@ class FourViewController: UIViewController {
         self.title = "four"
         self.view.backgroundColor = UIColor.cyan
         setLKBtn()
-        
+    
     }
 
     func setLKBtn() {

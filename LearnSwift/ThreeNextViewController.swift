@@ -36,7 +36,7 @@ class ThreeNextViewController: UIViewController, UIWebViewDelegate {
     func webViewDidFinishLoad(_ webView: UIWebView) {
         
         UIApplication.shared.isNetworkActivityIndicatorVisible = false
-        
+    
     }
     
     override func didReceiveMemoryWarning() {

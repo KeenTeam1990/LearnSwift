@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>HandyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Kingfisher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,12 +42,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2E6551A791BBDD68C7DDECDB380A54DB</key>
+		<key>2771B241FCE337E606D5617826A23443</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>665591396E54348656941391B9DFCCF5</key>
+		<key>3925E840B264C7165FD829723C842B3B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>721D71AC04F1FB94CF4C24495DBB88F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>734FA3F6E490B12167982F1616531D12</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,17 +67,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9B1DBA955B5E0E60911208943AB8E749</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>BE5930ACC2EAFBE5E2AE87E10DB45FA0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>C4944FEC314D1A66588651D006273ADE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F11F6892CE8C30B36B3868B6ACCC84B6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
