@@ -41,6 +41,7 @@
 		36848E0E1F70C4E100699ABA /* TwoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36848E051F70C4E100699ABA /* TwoTableViewCell.xib */; };
 		36848E0F1F70C4E100699ABA /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36848E061F70C4E100699ABA /* TwoViewController.swift */; };
 		36DA20201F716BD300FA4F5B /* LearnSwiftConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA201F1F716BD300FA4F5B /* LearnSwiftConst.swift */; };
+		36F45DF81F9D9DDE00A5131B /* KTConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F45DF71F9D9DDE00A5131B /* KTConst.swift */; };
 		36FDF2861F720EC4000D58BA /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FDF27E1F720EC4000D58BA /* SVIndefiniteAnimatedView.m */; };
 		36FDF2871F720EC4000D58BA /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FDF2801F720EC4000D58BA /* SVProgressAnimatedView.m */; };
 		36FDF2881F720EC4000D58BA /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36FDF2811F720EC4000D58BA /* SVProgressHUD.bundle */; };
@@ -109,6 +110,7 @@
 		36848E051F70C4E100699ABA /* TwoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoTableViewCell.xib; sourceTree = "<group>"; };
 		36848E061F70C4E100699ABA /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
 		36DA201F1F716BD300FA4F5B /* LearnSwiftConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnSwiftConst.swift; sourceTree = "<group>"; };
+		36F45DF71F9D9DDE00A5131B /* KTConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTConst.swift; sourceTree = "<group>"; };
 		36FDF2781F720E5E000D58BA /* LearnSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LearnSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		36FDF27D1F720EC4000D58BA /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		36FDF27E1F720EC4000D58BA /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 		36848DCF1F70C48700699ABA /* LearnSwift */ = {
 			isa = PBXGroup;
 			children = (
+				36F45DF61F9D9D7700A5131B /* Tools */,
 				3663BD701F8D1A0D003740F5 /* HUD */,
 				3663BD6D1F8D1924003740F5 /* HttpTools */,
 				360D61C81F8B12B400E74708 /* LearnSwift.entitlements */,
@@ -280,6 +283,14 @@
 				36848DF21F70C48700699ABA /* Info.plist */,
 			);
 			path = LearnSwiftUITests;
+			sourceTree = "<group>";
+		};
+		36F45DF61F9D9D7700A5131B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				36F45DF71F9D9DDE00A5131B /* KTConst.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		36FDF27C1F720EC4000D58BA /* SVProgressHUD */ = {
@@ -512,6 +523,7 @@
 				36848E0C1F70C4E100699ABA /* ThreeViewController.swift in Sources */,
 				36848E0B1F70C4E100699ABA /* ThreeNextViewController.swift in Sources */,
 				360D61CE1F8B6D8C00E74708 /* UI+Extension.swift in Sources */,
+				36F45DF81F9D9DDE00A5131B /* KTConst.swift in Sources */,
 				36848E0F1F70C4E100699ABA /* TwoViewController.swift in Sources */,
 				3663BD811F8D1A0D003740F5 /* CJSTriangleIndicator.swift in Sources */,
 				36848DD31F70C48700699ABA /* ViewController.swift in Sources */,

@@ -13,10 +13,8 @@ class LKFileManger: NSObject {
     /// 单利
     static let sharedInstance: LKFileManger = LKFileManger()
 
-    ///
     /// 获取Documents路径
-    ///
-    /// - Returns: 返回路径
+    /// Returns: 返回路径
     public func getDocumentsPath() -> String{
 
         let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
@@ -52,7 +50,6 @@ class LKFileManger: NSObject {
     }
 
     /// 根据传入的文件名创建文件
-    ///
     /// - Parameter fileName: 传入的文件名
     /// - Returns: 返回文件名
     public func createFile(_ fileName: String) -> (String){
@@ -86,7 +83,7 @@ class LKFileManger: NSObject {
         return  data.write(toFile: filePath, atomically: true)
     }
 
-    
+
     public func readFileContent(_ filePath: String) -> AnyObject {
 
         /// 因为我的项目是存的数组 所以我返回的数组

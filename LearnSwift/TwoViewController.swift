@@ -8,17 +8,25 @@
 
 import UIKit
 
-class TwoViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class TwoViewController: UIViewController, UITableViewDelegate, UITableViewDataSource,UISearchResultsUpdating {
 
     var dataArr = NSMutableArray()
     var _tableView = UITableView()
+    var sc : UISearchController!
+    var searchResult : [String]!
+    var str : String?
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.blue
+        self.navigationController?.extendedLayoutIncludesOpaqueBars = true
         self.title = "two"
         setTableView()
         setDataSource()
+        setSearchBar()
         
     }
     
@@ -29,6 +37,21 @@ class TwoViewController: UIViewController, UITableViewDelegate, UITableViewDataS
        dataArr.addObjects(from: dataAr)
 
     }
+    
+    func  setSearchBar(){
+    
+        sc = UISearchController(searchResultsController: nil)
+        sc.searchResultsUpdater = self
+        _tableView.tableHeaderView = sc.searchBar
+        
+    }
+    
+    func updateSearchResults(for searchController: UISearchController) {
+      
+        
+        
+    }
+    
     
     func  setTableView(){
     

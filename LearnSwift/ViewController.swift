@@ -20,7 +20,7 @@ class ViewController: UIViewController ,sendTextDelegate {
         self.navigationItem.rightBarButtonItem = rightBar
         
         lab = UILabel(frame: CGRect(x: KTSCREENWIDTH/2-50, y: 200, width: 100, height: 50))
-        lab.backgroundColor = UIColor.orange
+        lab.backgroundColor = UIColor.white
         lab.layer.cornerRadius = 25
         lab.layer.masksToBounds = true
         lab.textAlignment = .center
