@@ -8,15 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController ,sendTextDelegate {
+class ViewController: UIViewController ,sendTextDelegate,SalePromotionImageViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
         self.title = "首页"
-        setNavRightBar()
+        setRightBar()
         self.view.addSubview(labF)
         self.view.addSubview(labS)
+        self.view.addSubview(saleImgeView)
         
     }
     
@@ -51,11 +52,24 @@ class ViewController: UIViewController ,sendTextDelegate {
     
     }()
     
+    private lazy var saleImgeView : SalePromotionImageView = {
     
-    func setNavRightBar(){
+        let saleImgeView = SalePromotionImageView(frame: CGRect(x: 20 , y: 100, width: 49, height: 54))
+        
+        saleImgeView?.defaultImageName = "Home_sale_promotion"
+        saleImgeView?.delegate = self
+        
+      return saleImgeView!
+    }()
     
-        let rightBar = UIBarButtonItem(title: "下一页", style: .plain, target: self, action: #selector(nextPage))
-        self.navigationItem.rightBarButtonItem = rightBar
+    func salePromotionImageView(_ salePromotionImageView: SalePromotionImageView!, didClickAtPromotionView flag: String!) {
+        
+        
+    }
+    
+    func setRightBar() {
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "下一页", style: .plain, target: self, action:  #selector(nextPage))
     
     }
     
@@ -68,10 +82,8 @@ class ViewController: UIViewController ,sendTextDelegate {
     }
     
     func sendText(controller: SecondViewController, textKT: String) {
-        .text = textKT;
+        print(textKT)
     }
-    
-    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

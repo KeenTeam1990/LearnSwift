@@ -41,6 +41,7 @@
 		36848E0E1F70C4E100699ABA /* TwoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36848E051F70C4E100699ABA /* TwoTableViewCell.xib */; };
 		36848E0F1F70C4E100699ABA /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36848E061F70C4E100699ABA /* TwoViewController.swift */; };
 		36DA20201F716BD300FA4F5B /* LearnSwiftConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA201F1F716BD300FA4F5B /* LearnSwiftConst.swift */; };
+		36E44FD61FA037F2002E5F40 /* SalePromotionImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E44FD51FA037F2002E5F40 /* SalePromotionImageView.m */; };
 		36F45DF81F9D9DDE00A5131B /* KTConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F45DF71F9D9DDE00A5131B /* KTConst.swift */; };
 		36FDF2861F720EC4000D58BA /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FDF27E1F720EC4000D58BA /* SVIndefiniteAnimatedView.m */; };
 		36FDF2871F720EC4000D58BA /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FDF2801F720EC4000D58BA /* SVProgressAnimatedView.m */; };
@@ -110,6 +111,8 @@
 		36848E051F70C4E100699ABA /* TwoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoTableViewCell.xib; sourceTree = "<group>"; };
 		36848E061F70C4E100699ABA /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
 		36DA201F1F716BD300FA4F5B /* LearnSwiftConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnSwiftConst.swift; sourceTree = "<group>"; };
+		36E44FD41FA037F2002E5F40 /* SalePromotionImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalePromotionImageView.h; sourceTree = "<group>"; };
+		36E44FD51FA037F2002E5F40 /* SalePromotionImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalePromotionImageView.m; sourceTree = "<group>"; };
 		36F45DF71F9D9DDE00A5131B /* KTConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTConst.swift; sourceTree = "<group>"; };
 		36FDF2781F720E5E000D58BA /* LearnSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LearnSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		36FDF27D1F720EC4000D58BA /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
@@ -289,6 +292,8 @@
 			isa = PBXGroup;
 			children = (
 				36F45DF71F9D9DDE00A5131B /* KTConst.swift */,
+				36E44FD41FA037F2002E5F40 /* SalePromotionImageView.h */,
+				36E44FD51FA037F2002E5F40 /* SalePromotionImageView.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -522,6 +527,7 @@
 				3663BD8E1F8D1F93003740F5 /* LKFileManger.swift in Sources */,
 				36848E0C1F70C4E100699ABA /* ThreeViewController.swift in Sources */,
 				36848E0B1F70C4E100699ABA /* ThreeNextViewController.swift in Sources */,
+				36E44FD61FA037F2002E5F40 /* SalePromotionImageView.m in Sources */,
 				360D61CE1F8B6D8C00E74708 /* UI+Extension.swift in Sources */,
 				36F45DF81F9D9DDE00A5131B /* KTConst.swift in Sources */,
 				36848E0F1F70C4E100699ABA /* TwoViewController.swift in Sources */,

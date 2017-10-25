@@ -26,6 +26,8 @@ let kBgColor = UIColor.hexInt(0xf5f5f5)
 
 let kSelectColor = RGB(247, 90, 0)
 
+let BackGroundColor = RGB(242, 242, 242)
+
 let kNormalColor = UIColor.hexInt(0x666666)
 
 let kBlackColor = UIColor.hexInt(0x333333)

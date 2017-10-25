@@ -3,3 +3,4 @@
 //
 
 #import "SVProgressHUD.h"
+#import "SalePromotionImageView.h"
