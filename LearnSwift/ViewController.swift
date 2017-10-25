@@ -9,23 +9,54 @@
 import UIKit
 
 class ViewController: UIViewController ,sendTextDelegate {
-
-    var lab = UILabel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
         self.title = "首页"
+        setNavRightBar()
+        self.view.addSubview(labF)
+        self.view.addSubview(labS)
+        
+    }
+    
+    private lazy var labF : UILabel = {
+    
+    let labF = UILabel(frame: CGRect(x: 15, y: 200, width: 100, height: 50))
+        labF.backgroundColor = UIColor.white
+        labF.font = UIFont.systemFont(ofSize: 12)
+        labF.numberOfLines = 0
+        labF.text = "咖啡"
+        labF.lineBreakMode = .byTruncatingTail
+        let expectSize = labF.sizeThatFits(CGSize(width: 100, height: 9999))
+        labF.frame.size.width = expectSize.width
+        labF.textAlignment = .center
+        print(labF.frame)
+        return labF
+    }()
+    
+    private lazy var labS :UILabel = {
+    
+        let labS = UILabel(frame: CGRect(x:15 , y: 200, width: 100, height: 50))
+        labS.backgroundColor = UIColor.white
+        labS.font = UIFont.systemFont(ofSize: 12)
+        labS.numberOfLines = 0
+        labS.text = "喝咖啡的"
+        labS.lineBreakMode = .byTruncatingTail
+        let expectSize = labS.sizeThatFits(CGSize(width: 100, height: 9999))
+        labS.frame.size.width = expectSize.width
+        labS.textAlignment = .center
+        print(labS.frame)
+        return labS
+    
+    }()
+    
+    
+    func setNavRightBar(){
+    
         let rightBar = UIBarButtonItem(title: "下一页", style: .plain, target: self, action: #selector(nextPage))
         self.navigationItem.rightBarButtonItem = rightBar
-        
-        lab = UILabel(frame: CGRect(x: KTSCREENWIDTH/2-50, y: 200, width: 100, height: 50))
-        lab.backgroundColor = UIColor.white
-        lab.layer.cornerRadius = 25
-        lab.layer.masksToBounds = true
-        lab.textAlignment = .center
-        self.view.addSubview(lab)
-        
+    
     }
     
     func  nextPage(){
@@ -37,7 +68,7 @@ class ViewController: UIViewController ,sendTextDelegate {
     }
     
     func sendText(controller: SecondViewController, textKT: String) {
-        lab.text = textKT;
+        .text = textKT;
     }
     
     
