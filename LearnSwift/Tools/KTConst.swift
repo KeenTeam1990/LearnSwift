@@ -15,6 +15,8 @@ enum KTTopicType:Int{
 
 }
 
+ 
+
 let BASE_URL = "http://api.kt.com"
 let KTSCREENWIGTH = UIScreen.main.bounds.size.width
 let KTSCRENHIGHT = UIScreen.main.bounds.size.height

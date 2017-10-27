@@ -4,3 +4,4 @@
 
 #import "SVProgressHUD.h"
 #import "SalePromotionImageView.h"
+#import "WSLoginView.h"
